@@ -37,7 +37,7 @@ int main() {
 
     node* root = NULL;
 
-    buildFromLevelOrder(root);
+    buildTree(root);
 
     return 0;
 }
