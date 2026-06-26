@@ -75,7 +75,7 @@ public:
 
     bool prefixUtil(TrieNode* root, string word) {
         if (word.length() == 0) {
-            return true; // Don't care if it's terminal, just that the path exists
+            return true; 
         }
 
         int index = word[0] - 'a';
