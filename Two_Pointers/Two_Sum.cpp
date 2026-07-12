@@ -40,7 +40,7 @@ class Solution{
             for(int i=0; i<nums.size(); i++)
             {
                 int diff = target - nums[i];
-                if(check[diff] != check.end())
+                if(check.find(diff) != check.end())
                 {
                     return {check[diff],i};
                 }
