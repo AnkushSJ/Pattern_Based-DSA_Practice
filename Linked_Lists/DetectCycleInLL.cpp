@@ -19,3 +19,5 @@ public:
         return false;
     }
 };
+
+// can also be done using maps , by marking true for each node you visit , but its space complexity is O(n).
