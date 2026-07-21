@@ -19,7 +19,7 @@ public:
 };
 
 // when unsorted list is given -> we can solve by O(n^2) or first sort the list and apply above code 
-// here we are using maps t solve in O(n) 
+// here we are using maps to solve in O(n) 
 #include <unordered_set>
 class Solution {
 public:
